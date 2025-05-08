@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Nerko One", cursive;
+    src: url(../fonts/NerkoOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Comfortaa", cursive;
+    src: url("../fonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    font-family: "Comfortaa", cursive;
+    background-color: #272b30;
+}
+
+header {
+    max-height: 30vh;
+    object-fit: cover;
+
+}
+
+header h5 {
+    vertical-align: middle;
+}
+
+nav {
+    background-color: rgb(58, 73, 123);
+    /* margin-top: -30px; */
+    box-shadow: 0 0  10px rgb(0 0 0 / 0.7);
+}
+
+nav ul li a {
+    font-size: 12px;
+}
+
+.row .card {
+    filter: grayscale(0.7);
+    transition: all 0.5s;
+}
+
+.row .card:hover {
+    filter: grayscale(0)
+}
+
+.game-details {
+    background-color: #272729be;
+    backdrop-filter: blur(4px);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.close-img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.show{
+    width: fit-content;
+}
+
